@@ -1,0 +1,86 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "pagos",
+    "collectionId": "1e1a2578-eaa1-4aee-980e-6f3d3fc35748",
+    "dateExported": "2024-05-29T13:56:59.569Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "333670be-4f57-4383-b604-d27bad598377",
+            "colId": "1e1a2578-eaa1-4aee-980e-6f3d3fc35748",
+            "containerId": "",
+            "name": "mostrarPago",
+            "url": "http://localhost:3000/api/pagos/1",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-05-29T12:47:44.117Z",
+            "modified": "2024-05-29T13:14:09.933Z",
+            "headers": []
+        },
+        {
+            "_id": "2f7338ad-dc5e-4fa1-9126-8001ffb1e209",
+            "colId": "1e1a2578-eaa1-4aee-980e-6f3d3fc35748",
+            "containerId": "",
+            "name": "listarPago",
+            "url": "localhost:3000/api/pagos",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-29T12:57:07.174Z",
+            "modified": "2024-05-29T12:57:38.109Z",
+            "headers": []
+        },
+        {
+            "_id": "0c82c7c6-2e8e-496d-b81c-924d7495b7cf",
+            "colId": "1e1a2578-eaa1-4aee-980e-6f3d3fc35748",
+            "containerId": "",
+            "name": "agregarPago",
+            "url": "localhost:3000/api/pagos",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-05-29T12:57:13.620Z",
+            "modified": "2024-05-29T13:54:19.602Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"id\":  9,\n\"pago\":  2\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "7cde7b49-9725-4b20-8327-97fac8eae191",
+            "colId": "1e1a2578-eaa1-4aee-980e-6f3d3fc35748",
+            "containerId": "",
+            "name": "modificarPago",
+            "url": "localhost:3000/api/pagos",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-05-29T12:57:21.092Z",
+            "modified": "2024-05-29T13:56:01.705Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"id\":  9,\n\"pago\":  20\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "e450e6f8-fb43-4ff4-8dc2-6f6c8234e0fe",
+            "colId": "1e1a2578-eaa1-4aee-980e-6f3d3fc35748",
+            "containerId": "",
+            "name": "eliminarPago",
+            "url": "localhost:3000/api/pagos",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-05-29T12:57:26.332Z",
+            "modified": "2024-05-29T13:38:20.492Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"id\":  2,\n\"pago\":  40\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "xtE5i5PwUxaOS36i1v83dAEaEUKeKepH6BNF5pR3KIjvJoUMpX8xR2BR-pgeAhj_kKTcjFBbvxj4hITQtlQ5wA"
+}
